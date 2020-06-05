@@ -1,16 +1,10 @@
 package com.example.miwork;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.constraintlayout.widget.ConstraintSet;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.GridView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -19,7 +13,7 @@ public class NumbersActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_numbers);
+        setContentView(R.layout.word_list);
 
         //Create list of Word objects
         ArrayList<Word> words = new ArrayList<>();
